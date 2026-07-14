@@ -24,6 +24,9 @@ Through detailed analysis and simulation, we propose an optimized (TO-BE) proces
 Our approach involved a comprehensive methodology combining process modeling, qualitative and quantitative analysis, and advanced simulation techniques:
 
 - **Business Process Model and Notation (BPMN):** Used to visually represent both the AS-IS and TO-BE processes, providing a clear, standardized understanding of the workflow.
+  
+<img width="2631" height="2072" alt="Noons New Model" src="https://github.com/user-attachments/assets/4d5f03f9-04d7-4f7c-8dd4-b43b47550f96" />
+
 - **Qualitative Analysis:** Included Value-Added Analysis (VA, BVA, NVA) and Waste Analysis (Lean principles).
 - **Quantitative Analysis:** Focused on time (Cycle Time Efficiency), cost (Labor Cost Analysis), and process variability (I-MR Control Charts).
 - **Service-Oriented Architecture (SOA):** Designed RESTful web services for cross-pool communication, mapping BPMN tasks to API specifications (GET, POST, PUT).
