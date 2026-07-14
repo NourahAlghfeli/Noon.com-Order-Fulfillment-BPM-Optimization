@@ -140,4 +140,4 @@ This project was a collaborative effort by a dedicated team:
 *   **3- Bizagi Simulation Results:** Detailed reports from Level 1, 2, 3, and 4 simulations.
 *   **4- Python Code:** For I-MR Control Chart generation.
 
-*(Note: All figures mentioned in the report, including BPMN diagrams, control charts, and Bizagi simulation screenshots, are available in the full project report PDF.)*
+*(Note: All figures mentioned in the report, including BPMN diagrams, control charts, and Bizagi simulation screenshots, are available in the full project report PDF. In addition to that the python code and the full BPMN are available as well )*
