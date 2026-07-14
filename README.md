@@ -24,11 +24,9 @@ Through detailed analysis and simulation, we propose an optimized (TO-BE) proces
 Our approach involved a comprehensive methodology combining process modeling, qualitative and quantitative analysis, and advanced simulation techniques:
 
 - **Business Process Model and Notation (BPMN):** Used to visually represent both the AS-IS and TO-BE processes, providing a clear, standardized understanding of the workflow.
-  
-<img width="2631" height="2072" alt="Noons New Model" src="https://github.com/user-attachments/assets/4d5f03f9-04d7-4f7c-8dd4-b43b47550f96" />
-
 - **Qualitative Analysis:** Included Value-Added Analysis (VA, BVA, NVA) and Waste Analysis (Lean principles).
 - **Quantitative Analysis:** Focused on time (Cycle Time Efficiency), cost (Labor Cost Analysis), and process variability (I-MR Control Charts).
+  
 - **Service-Oriented Architecture (SOA):** Designed RESTful web services for cross-pool communication, mapping BPMN tasks to API specifications (GET, POST, PUT).
 - **Decision Model and Notation (DMN):** Utilized to model complex decision-making logic, specifically for payment authorization.
 - **Bizagi Modeler & Simulator:** Employed for process execution and simulation across four levels:
@@ -42,6 +40,8 @@ Our approach involved a comprehensive methodology combining process modeling, qu
 ## 🔍 AS-IS Process Analysis (Customer Order Fulfillment)
 
 Our analysis of Noon.com's existing order fulfillment process revealed several areas for improvement:
+
+<img width="2631" height="2072" alt="Noons New Model" src="https://github.com/user-attachments/assets/4d5f03f9-04d7-4f7c-8dd4-b43b47550f96" />
 
 ### Value-Added Analysis:
 We classified 20 tasks within the process, identifying several **Non-Value-Added (NVA)** activities:
@@ -67,6 +67,9 @@ Identified key wastes:
     *   **Highest Cost Contributor:** Logistics Driver (24.58 AED/order), requiring the highest FTE (62 drivers for 500 orders/day).
 *   **Process Variability (I-MR Control Chart):** Analysis of 24 months of simulated order data showed the process was statistically stable and in control, with no special causes of variation, even during seasonal spikes (e.g., 
 Yellow Friday sales), allowing for reliable capacity forecasting.
+
+<img width="502" height="310" alt="image" src="https://github.com/user-attachments/assets/86426f2a-2b74-4159-a1eb-1cda57dc4d73" />
+
 
 ---
 
