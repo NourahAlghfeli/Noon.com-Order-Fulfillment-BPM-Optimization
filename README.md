@@ -63,7 +63,7 @@ Analysis of 24 months of simulated order data showed the process was statistical
 
 ## 📁 Project Documentation & Assets
 
-*   **[📄 Read the Full Project Report (PDF)](Full_Project_Report.pdf)** *(Includes BPMN Models, DMN Tables, and Bizagi Simulation Results)*
-*   **[🐍 View the Python Code for Control Charts](Control_Chart_Analysis.py)**
+*   **[📄 Read the Full Project Report (PDF)](Noon.com-Order-Fulfillment-Report.pdf)** *(Includes BPMN Models, DMN Tables, and Bizagi Simulation Results)*
+*   **[🐍 View the Python Code for Control Charts](Control_Charts_Python_Code.py)**
 
 *(Note: The full BPMN files and Python scripts are available in this repository).*
