@@ -20,13 +20,15 @@ This project aims to identify bottlenecks, non-value-added activities, and areas
 
 ## 💡 My Role & Contributions (Hessa Khalfan)
 
-As a core analyst on this project, my contributions focused heavily on **quantitative analysis, statistical programming, and decision logic modeling**:
+As a core team member, my primary responsibilities spanned process identification, qualitative and quantitative analysis, Service-Oriented Architecture, and process simulation:
 
-*   **Statistical Process Control (Python):** I wrote the Python scripts to generate and analyze **I-MR Control Charts**. This involved simulating 24 months of order data to evaluate process variability, ensuring the system remained statistically stable even during seasonal spikes (e.g., Yellow Friday sales).
-*   **Decision Modeling (DMN):** I constructed the Decision Model and Notation (DMN) tables for the Payment Authorization logic. This automated the risk management process, flagging high-value transactions for manual review while instantly approving legitimate ones.
-*   **Quantitative & Waste Analysis:** I conducted deep quantitative analysis to identify bottlenecks and formulated strategic recommendations for Non-Value-Added (NVA) activity elimination, directly contributing to the reduction of the overall cycle time.
+*   **Process Identification & Description (Deliverable 1):** Selected Noon.com as the organization for analysis. Wrote the process description for order placement and payment approval, focusing on the interaction between the OMS and payment gateways. Also drafted the first version of the BPMN model, mapping the successful path and identifying the need for decision gateways.
+*   **Waste Analysis & Cost Analysis (Deliverable 2):** Identified the four types of waste in the process: Waiting, Transportation, Overprocessing, and Defects/Rework. Calculated the labor cost per order, identifying the Logistics Driver as the largest cost contributor (24.58 AED out of 32.58 AED).
+*   **Control Chart Interpretation (Deliverable 2):** Interpreted the I-MR control chart results, explaining the business context behind the Month 22 spike (66,000 orders), linking it to Noon's "Yellow Friday" sale.
+*   **Service-Oriented Architecture (Deliverable 3):** Defined RESTful API specifications for tasks including Process Order, Cancel Order, Package Order, Issue Shipment Details, Scan Shipment Detail, and Deliver to Noon Warehouse. Selected HTTP verbs (PUT, POST) based on whether the task updates an existing resource or creates a new one.
+*   **Process Simulation & Recommendations (Deliverable 4):** Reflected on how the Bizagi simulation validated earlier decisions, confirming that automating NVA tasks improved Cycle Time Efficiency from 27% to 34.4%. Identified Resource Analysis as the most challenging part due to balancing realism with simulation constraints.
 
-This project significantly deepened my ability to merge business process management with data-driven statistical analysis using Python.
+This project demonstrated the importance of data-driven process improvement, from identifying waste to validating enhancements through simulation.
 
 ---
 
